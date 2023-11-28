@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Productos | Mantra Sublimados</title>
+    
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../CSS/estilo.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logo.png" alt="Logo de Mantra Sublimados"></a>
+
+                <img id="mantraTexto" class="logo" src="../img/mantraTexto.png" alt="Logo de Mantra Sublimados">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li><a href="../index.html"> Home </a></li>
+                        <li><a href="productos.html"> Productos </a></li>
+                        <li><a href="escuelita.html"> Escuelita </a></li>
+                        <li><a href="quienesSomos.html"> Quienes Somos </a></li>
+                        <li><a href="contacto.html"> Contacto </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1> Nuestros productos a tu alcance</h1>
+
+        <div class="contenedorDeFilaFlex">
+
+            <div class="filaProductosFlex">
+                <div class="filaProductosFlex">
+                    <div class="contenedorProductos">
+                        <img class="imgProductos" src="../img/identificadorBruno.jpg"
+                            alt="Foto de chapita Identificadora de mascota">
+                        <h3> Identificadores de mascotas </h3>
+                        <p>Sublimamos nombre y número</p>
+                        <h4>$XXXXX</h4>
+                    </div>
+
+                    <div class="contenedorProductos">
+                        <img class="imgProductos" src="../img/tazaGato.jpg" alt="Foto de taza sumblimada">
+                        <h3>Tazas Sublimadas</h3>
+                        <p>Taza sublimada con imagen a elección</p>
+                        <h4>$XXXXX</h4>
+
+                    </div>
+                </div>
+                <div class="filaProductosFlex">
+                    <div class="contenedorProductos">
+                        <img class="imgProductos" src="../img/insumos.jpg" alt="Foto de productos para sublimar">
+                        <h3> Todo para sublimar </h3>
+                        <p>Selección de insumos varios</p>
+                        <h4>$XXXXX</h4>
+                    </div>
+
+                    <div class="contenedorProductos">
+                        <img class="imgProductos" src="../img/herreroMoto1.jpg"
+                            alt="Foto de adorno moto pequeña hecha con piezas recicladas y soldadas">
+                        <h3> Reciclados</h3>
+                        <p>Artesanía metálica</p>
+                        <h4>$XXXXX</h4>
+                    </div>
+
+                </div>
+            </div>
+            <div class="filaProductosFlex">
+                <div class="filaProductosFlex">
+                    <div class="contenedorProductos">
+                        <img class="imgProductos" src="../img/bolsa.png"
+                            alt="Foto de bolsa de cartón sublimada con logo mantra">
+                        <h3> Merchandising - bolsa </h3>
+                        <p>Bolsa de cartón sublimada </p>
+                        <h4>$XXXXX</h4>
+                    </div>
+
+                    <div class="contenedorProductos">
+                        <img class="imgProductos" src="../img/remera.png" alt="Foto remera sublimada con logo mantra">
+                        <h3> Merchandising - remera </h3>
+                        <p>Remera sublimada con tu logo</p>
+                        <h4>$XXXXX</h4>
+                    </div>
+                </div>
+                <div class="filaProductosFlex">
+                    <div class="contenedorProductos">
+                        <img class="imgProductos" src="../img/tarjeta.png" alt="Foto tarjeta sublimada con logo mantra">
+                        <h3>Merchandising - tarjeta</h3>
+                        <p>Tarjetas con tu logo</p>
+                        <h4>$XXXXX</h4>
+                    </div>
+
+                    <div class="contenedorProductos">
+                        <img class="imgProductos" src="../img/celular.png" alt="Foto de celular con logo mantra">
+                        <h3>Merchandising - Celular</h3>
+                        <p>Celular plástico con logo</p>
+                        <h4>$XXXXX</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <section class="filaIconosFlex">
+        <h2>Suscríbete a nuestro Newsletter</h2>
+
+        <form>
+            <fieldset>
+                <legend>Recibe nuestras novedades</legend>
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="Nombre" id="nombre" placeholder="Nombre" required>
+
+                <label for="email">e-mail</label>
+                <input type="email" name="Email" id="email" placeholder="a@mantra.com.ar" required>
+
+            </fieldset>
+
+            <input class="btnForm" type="submit">
+            <input class="btnForm" type="reset">
+
+        </form>
+    </section>
+    <footer>
+        <h5>Trabajo hecho para el curso de programación de páginas web de Coderhouse - Todos los derechos reservados
+        </h5>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*MAIN*/
+main p {
+  padding: 20px;
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+header {
+  align-items: center;
+  background-color: #42426b;
+}
+
+.navbar {
+  background-color: #42426b !important;
+}
+
+.navbar-toggler {
+  background-color: aliceblue;
+}
+
+.logo {
+  width: 120px;
+}
+
+.imgContacto {
+  width: 500px;
+  height: 500px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  transition: all 0.25s;
+}
+nav ul li:hover {
+  box-sizing: content-box;
+  box-shadow: 0 20px 16px rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+h1 {
+  margin: 20px 20px 0px 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+/*RESPONSIVE*/
+@media (max-width: 991px) {
+  header {
+    align-items: center;
+    padding: 10px;
+  }
+  .logo {
+    width: 60px;
+    padding-bottom: 10px;
+  }
+  #mantraTexto {
+    display: none;
+  }
+  nav ul li {
+    font-size: 1rem;
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .contenedorIconos p {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+  iframe {
+    width: 90vw;
+    height: 50vw;
+  }
+}
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+  }
+  .video {
+    width: 80%;
+    aspect-ratio: 16/9;
+    margin: auto;
+  }
+  h2 {
+    padding: 0px 20px;
+  }
+  iframe {
+    width: 95vw;
+    height: 50vw;
+  }
+}
+/*FOOTER*/
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: solid gray 1px;
+  background-color: #F2E3EF;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+/*BANNER*/
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/polygonal19.jpg);
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+
+button {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.7);
+}
+
+/*FORMULARIOS*/
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid rgb(134, 201, 201);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btnForm {
+  background-color: #333;
+  color: aliceblue;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/*ICONOSINFO*/
+.iconos {
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.filaIconosFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 50px 0px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.contenedorIconos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column;
+  align-items: center;
+}
+.contenedorIconos p {
+  max-width: 800px;
+}
+
+/*PRODUCTOS*/
+.contenedorDeFilaFlex {
+  width: 100%;
+  max-width: 1600x;
+  height: 100%;
+  border-radius: 14px;
+  margin: auto;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+}
+
+.filaProductosFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.contenedorProductos {
+  justify-content: space-between;
+  flex-flow: column;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.25s;
+  margin: 10px;
+}
+.contenedorProductos:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.imgProductos {
+  width: 350px;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.contenedorProductos p {
+  color: black;
+  font-size: 15px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+/*IFRAME*/
+iframe {
+  display: block;
+  margin: auto;
+}
+
+/*VIDEO*/
+.video {
+  width: 60%;
+  aspect-ratio: 16/9;
+  margin: auto;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 991px) {
+  header {
+    align-items: center;
+    padding: 10px;
+  }
+  .logo {
+    width: 60px;
+    padding-bottom: 10px;
+  }
+  #mantraTexto {
+    display: none;
+  }
+  nav ul li {
+    font-size: 1rem;
+  }
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  .contenedorIconos p {
+    font-size: 1rem;
+    max-width: 600px;
+  }
+  iframe {
+    width: 90vw;
+    height: 50vw;
+  }
+}
+@media (max-width: 768px) {
+  nav ul li {
+    display: block;
+  }
+  .video {
+    width: 80%;
+    aspect-ratio: 16/9;
+    margin: auto;
+  }
+  h2 {
+    padding: 0px 20px;
+  }
+  iframe {
+    width: 95vw;
+    height: 50vw;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

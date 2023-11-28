@@ -1,0 +1,48 @@
+header {
+    align-items: center;
+    background-color: $color-principal;
+  }
+  
+  .navbar {
+    background-color:$color-principal !important;
+  }
+  
+  .navbar-toggler {
+    background-color: aliceblue;
+  }
+  
+  .logo {
+    width: 120px;
+  }
+  
+  .imgContacto {
+    width: 500px;
+    height: 500px;
+  }
+  
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: all 0.25s;
+  
+    &:hover {
+      box-sizing: content-box;
+      box-shadow: 0 20px 16px rgba(255, 255, 255, 0.5);
+      transform: translateY(-2px);
+    }
+  }
+  
+  h1 {
+    margin: 20px 20px 0px 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  

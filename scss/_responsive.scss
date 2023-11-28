@@ -1,0 +1,60 @@
+/*RESPONSIVE*/
+
+@media (max-width: 991px) {
+    header {
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .logo {
+      width: 60px;
+      padding-bottom: 10px;
+    }
+  
+    #mantraTexto {
+      display: none;
+    }
+  
+    nav ul li {
+      font-size: 1rem;
+    }
+  
+    ul {
+      margin: 0px;
+      padding: 0px;
+    }
+  
+    .contenedorIconos p {
+      font-size: 1rem;
+      max-width: 600px;
+    }
+
+    iframe {
+       width: 90vw;
+       height: 50vw;
+      }
+
+    
+  }
+  
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+    }
+  
+    .video {
+      width: 80%;
+      aspect-ratio: 16/9;
+      margin: auto;
+    }
+
+    h2{
+        padding: 0px 20px;
+    }
+
+    iframe {
+        width: 95vw;
+        height: 50vw;
+       }
+
+  }
