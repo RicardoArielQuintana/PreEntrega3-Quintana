@@ -1,29 +1,28 @@
 /*ICONOSINFO*/
 
 .iconos {
-    display: inline-block;
-    width: 100px;
-    height: auto;
-    border-radius: 20px 20px 0px 0px;
+  display: inline-block;
+  width: 100px;
+  height: auto;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.filaIconosFlex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 50px 0px;
+  align-items: center;
+  overflow: hidden;
+}
+
+.contenedorIconos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: column;
+  align-items: center;
+
+  p {
+    max-width: 800px;
   }
-  
-  .filaIconosFlex {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    padding: 50px 0px;
-    align-items: center;
-    overflow: hidden;
-  }
-  
-  .contenedorIconos {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: column;
-    align-items: center;
-  
-    p {
-      max-width: 800px;
-    }
-  }
-  
+}
