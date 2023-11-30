@@ -1,13 +1,17 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}
+
 /*BANNER*/
 
 .banner {
-    display: flex;
+    @include flex-center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(../img/polygonal19.jpg);
     background-size: cover;
-    text-align: center;
     overflow: hidden;
 }
 

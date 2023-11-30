@@ -8,20 +8,18 @@
 }
 
 .filaIconosFlex {
-  display: flex;
+  @include flex-center;
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 50px 0px;
-  align-items: center;
   overflow: hidden;
 }
 
 .contenedorIconos {
-  display: flex;
+  @include flex-center;
   justify-content: space-evenly;
   flex-flow: column;
-  align-items: center;
-
+  
   p {
     max-width: 800px;
   }

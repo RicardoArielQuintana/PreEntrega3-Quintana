@@ -14,7 +14,7 @@
 }
 
 .filaProductosFlex {
-  display: flex;
+  @include flex-center;
   flex-flow: row wrap;
   justify-content: center;
 }

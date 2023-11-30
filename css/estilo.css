@@ -36,8 +36,8 @@ header {
 }
 
 .imgContacto {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
 }
 
 nav ul li {
@@ -110,6 +110,12 @@ a {
     width: 95vw;
     height: 50vw;
   }
+  .imgContacto {
+    width: 90vw;
+    height: auto;
+    max-width: 400px;
+    padding-top: 20px;
+  }
 }
 /*FOOTER*/
 footer {
@@ -124,12 +130,12 @@ footer {
 /*BANNER*/
 .banner {
   display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: url(../img/polygonal19.jpg);
   background-size: cover;
-  text-align: center;
   overflow: hidden;
 }
 
@@ -176,18 +182,18 @@ textarea {
 
 .filaIconosFlex {
   display: flex;
+  align-items: center;
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 50px 0px;
-  align-items: center;
   overflow: hidden;
 }
 
 .contenedorIconos {
   display: flex;
+  align-items: center;
   justify-content: space-evenly;
   flex-flow: column;
-  align-items: center;
 }
 .contenedorIconos p {
   max-width: 800px;
@@ -209,6 +215,7 @@ textarea {
 
 .filaProductosFlex {
   display: flex;
+  align-items: center;
   flex-flow: row wrap;
   justify-content: center;
 }
@@ -298,6 +305,12 @@ iframe {
   iframe {
     width: 95vw;
     height: 50vw;
+  }
+  .imgContacto {
+    width: 90vw;
+    height: auto;
+    max-width: 400px;
+    padding-top: 20px;
   }
 }
 
